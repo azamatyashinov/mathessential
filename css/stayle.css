@@ -333,4 +333,11 @@ main{
         color:rgb(19, 38, 38) ;
         font-weight:400;
     }
+
+    .main_section_2 .theme p{
+        text-shadow:0 0 10px #1ef5f1, 0 0 20px #4bfae5;
+        font-size: 24px;
+        font-family: Roboto;
+        color: #09222e;
+    }
 }
