@@ -341,4 +341,10 @@ main{
         font-family: Roboto;
         color: #09222e;
     }
+
+    .group{
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
 }
