@@ -73,6 +73,7 @@ main{
 .main_section_1 .cards img{
     height: 400px;
     border-radius: 10px;
+    margin-bottom: 20px;
 
 }
 
@@ -179,7 +180,7 @@ main{
 }
 .main_section_2 .theme p{
     text-shadow:0 0 10px #1ef5f1, 0 0 20px #4bfae5;
-    font-size: 40px;
+    font-size: 32px;
     font-family: Roboto;
     color: #09222e;
 }
