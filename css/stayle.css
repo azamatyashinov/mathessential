@@ -231,7 +231,7 @@ main{
 
     .main_section_2 .uzb_btn{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: rgb(223, 228, 232);
         font-family: Roboto;
         width: 150px;
@@ -244,7 +244,7 @@ main{
 
     .main_section_2 .ru_btn{
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 400;
         color: rgb(223, 228, 232);
             font-family: Roboto;
         width: 150px;
@@ -268,5 +268,68 @@ main{
         font-family: Roboto;
         color:rgb(19, 38, 38) ;
         font-weight:700;
+    }
+}
+
+@media (max-width:410px){
+    .main_section_1 .cards img{
+        height: 300px;
+        border-radius: 10px;
+    
+    }
+    .section_1-malumot{
+        width: 280px;
+        height: 300px;
+        background: white;
+        opacity: 0.6;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .nav h1{
+        font-family: Roboto;
+        font-size: 24px;
+        color: rgb(35, 72, 72);
+        text-shadow: 0 0 20px #1ef5f1, 0 0 40px #0081bc;
+    }
+
+    .main_section_2 .uzb_btn{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(223, 228, 232);
+        font-family: Roboto;
+        width: 150px;
+        height: 40px;
+        background: rgb(53, 170, 53);
+        border: none;
+        border-radius: 10px;
+        transition:all .4s linear;
+    }
+
+    .main_section_2 .ru_btn{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(223, 228, 232);
+            font-family: Roboto;
+        width: 150px;
+        height: 40px;
+        background: rgb(246, 215, 42);
+        border: none;
+        border-radius: 10px;
+        transition:all .4s linear;
+    
+    }
+
+    .section_1-malumot h1{
+        font-family: Roboto;
+        color: rgb(19, 38, 38);
+        font-size: 20px;
+    
+    }
+
+    .main_section_1 .cards .group p{
+        font-size: 14px;
+        font-family: Roboto;
+        color:rgb(19, 38, 38) ;
+        font-weight:400;
     }
 }
