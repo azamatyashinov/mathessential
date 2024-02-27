@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 1240px;
+    max-width: 100%;
+}
+
+header{
+    position: fixed;
+    left: 0;right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.header_section{
+    background-color: rgb(69, 179, 69);
+    padding: 20px 0;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav h1{
+    font-family: Roboto;
+    font-size: 48px;
+    color: rgb(35, 72, 72);
+    text-shadow: 0 0 20px #1ef5f1, 0 0 40px #0081bc;
+}
+.nav h1:hover{
+    text-shadow: 0 0 40px #2bf3ef, 0 0 60px #4bfae5;
+    transition: all .3s linear;
+}
+
+.header_section .nav a img{
+    height: 40px;
+    width: 40px;
+}
+.header_section .nav{
+    display: flex;
+    justify-content: space-between;
+}
